@@ -11,15 +11,15 @@ exports.bin = (static=false) => {
 
     switch (platform) {
         case 'win32':
-            return path.join(__dirname, platform, arch, '7za.exe');
+            return path.join(__dirname, 'bin', platform, arch, '7za.exe');
         break;
 
         case 'darwin':
-            return path.join(__dirname, platform, '7zz');
+            return path.join(__dirname, 'bin', platform, '7zz');
         break;
 
         case 'linux':
-            return path.join(__dirname, platform, arch, '7zz' + s);
+            return path.join(__dirname, 'bin', platform, arch, '7zz' + s);
         break;
 
         //No binaries for current platform
