@@ -1,0 +1,34 @@
+{
+  "name": "7zip-binaries",
+  "version": "0.0.1",
+  "description": "7zip binaries for node.js project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex-Kondakov/7zip-binaries.git"
+  },
+  "keywords": [
+    "node.js",
+    "javascript",
+    "js",
+    "7zip",
+    "7-zip",
+    "7zz",
+    "7za",
+    "zip",
+    "unzip",
+    "rar",
+    "unrar",
+    "bin",
+    "binary"
+  ],
+  "author": "Alex Kondakov",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/Alex-Kondakov/7zip-binaries/issues"
+  },
+  "homepage": "https://github.com/Alex-Kondakov/7zip-binaries#readme"
+}
